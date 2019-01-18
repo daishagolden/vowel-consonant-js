@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vowel and Consonant</title>
+    <link rel="stylesheet" href="css/vowel&consonant.css">
+</head>
+<body>
+    <h1>Vowel and Consonant Counter</h1>
+    <form onsubmit="event.preventDefault()">
+        <input type="text" name="output">
+        <input type="submit" value="SUBMIT" onclick="return vow(this.form.output.value) + consonant(this.form.output.value)"/>
+    </form>
+    <img src="img/letters.jpg">
+    <script src="js/vowel&consonant.js"></script>
+</body>
+</html>
